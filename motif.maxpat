@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 84.0, 1068.0, 753.0 ],
+		"rect" : [ 41.0, 84.0, 1068.0, 739.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -64,7 +64,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Bang output",
 					"id" : "obj-206",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -76,7 +76,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Bang input",
 					"id" : "obj-205",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -89,7 +89,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Mode: Record(1), Replay (0)",
 					"id" : "obj-204",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -330,7 +330,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 170.0, 150.0, 48.0 ],
+					"patching_rect" : [ 18.0, 170.0, 152.0, 48.0 ],
 					"text" : "Stop recording defines the size of the loop\n"
 				}
 
