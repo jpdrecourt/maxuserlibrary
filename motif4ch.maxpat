@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 85.0, 2092.0, 1313.0 ],
+		"rect" : [ 35.0, 85.0, 1210.0, 1313.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -68,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 491.5, 245.0, 158.0, 34.0 ],
+					"patching_rect" : [ 491.5, 245.0, 161.0, 34.0 ],
 					"text" : "Only change the loop length once done recording "
 				}
 
@@ -159,7 +159,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Bang output",
+					"comment" : "Bang output 4",
 					"id" : "obj-72",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -195,7 +195,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Bang output",
+					"comment" : "Bang output 3",
 					"id" : "obj-69",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -231,7 +231,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Bang output",
+					"comment" : "Bang output 2",
 					"id" : "obj-66",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -309,7 +309,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 652.0, 24.0, 76.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Bang input 4"
 				}
 
@@ -358,7 +357,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 569.5, 24.0, 76.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Bang input 3"
 				}
 
@@ -407,7 +405,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 486.999999999999943, 24.0, 76.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Bang input 2"
 				}
 
@@ -556,7 +553,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Play state: 1: play, ",
+					"comment" : "Play state (1: play, 0: stop)",
 					"id" : "obj-26",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -666,7 +663,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Bang output",
+					"comment" : "Bang output 1",
 					"id" : "obj-206",
 					"index" : 0,
 					"maxclass" : "outlet",

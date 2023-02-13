@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1308.0, 85.0, 1210.0, 1320.0 ],
+		"rect" : [ 1308.0, 85.0, 810.0, 1320.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -109,7 +109,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 262.5, 224.0, 161.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Only change the loop length once done recording "
 				}
 
@@ -282,7 +281,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Play state: 1: play, ",
+					"comment" : "Play state: 1: play, 0: stop",
 					"id" : "obj-26",
 					"index" : 0,
 					"maxclass" : "inlet",
