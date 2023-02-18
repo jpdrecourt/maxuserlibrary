@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 85.0, 1210.0, 600.0 ],
+		"rect" : [ 770.0, 317.0, 1210.0, 600.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.595186999999999,
@@ -92,7 +92,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 147.0, 406.021621999999979, 58.0, 22.0 ],
+					"patching_rect" : [ 143.0, 407.021621999999979, 58.0, 22.0 ],
 					"text" : "clip~ 0. 1."
 				}
 
@@ -116,7 +116,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 147.0, 367.021621999999979, 104.588425000000001, 22.0 ],
+					"patching_rect" : [ 143.0, 368.021621999999979, 108.588425000000001, 22.0 ],
 					"text" : "minimum~ 0."
 				}
 
@@ -127,7 +127,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 336.021621999999979, 32.0, 20.0 ],
+					"patching_rect" : [ 116.0, 337.021621999999979, 32.0, 20.0 ],
 					"text" : "l/d*t"
 				}
 
@@ -161,7 +161,7 @@
 				"box" : 				{
 					"comment" : "(signal) Loop Sync Output",
 					"id" : "obj-23",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -171,9 +171,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(signal) Channel 1 Output",
+					"comment" : "(multichannel signal) Outputs",
 					"id" : "obj-22",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -189,9 +189,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 48.379417000000004, 446.194657000000007, 117.0, 22.0 ],
-					"text" : "*~ 1."
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 48.379417000000004, 446.194657000000007, 50.0, 22.0 ],
+					"text" : "mc.*~ 1."
 				}
 
 			}
@@ -204,7 +204,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 147.0, 293.092864999999961, 46.0, 22.0 ],
+					"patching_rect" : [ 143.0, 294.092864999999961, 46.0, 22.0 ],
 					"text" : "*~ 100."
 				}
 
@@ -213,7 +213,7 @@
 				"box" : 				{
 					"comment" : "(float) Duck Time",
 					"id" : "obj-16",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -366,7 +366,7 @@
 				"box" : 				{
 					"comment" : "(signal/float) Loop Max",
 					"id" : "obj-3",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -379,7 +379,7 @@
 				"box" : 				{
 					"comment" : "(signal/float) Loop Min",
 					"id" : "obj-2",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -392,11 +392,11 @@
 				"box" : 				{
 					"comment" : "(signal) Sample Playback Increment",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 78.0, 61.021622000000008, 25.0, 25.0 ]
 				}
 
@@ -634,6 +634,8 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.886275, 0.886275, 0.886275, 1.0 ]
 	}
 
