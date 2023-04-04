@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.0, 1.0, 0.0, 0.5 ],
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 558.0, 370.0, 130.0, 22.0 ],
+					"text" : "out 3 @comment done"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -57,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.5, 199.0, 29.5, 22.0 ],
+					"patching_rect" : [ 76.5, 198.0, 29.5, 22.0 ],
 					"text" : "-"
 				}
 
@@ -229,8 +241,8 @@
 					"id" : "obj-31",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 7.0, 227.0, 158.0, 22.0 ],
 					"text" : "gen @gen oneShotCounter"
 				}
@@ -375,6 +387,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 155.5, 282.0, 567.5, 282.0 ],
+					"source" : [ "obj-31", 1 ]
 				}
 
 			}
