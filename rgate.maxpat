@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -113,7 +113,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Fraction let throuh (0. 1.)",
+					"comment" : "Fraction let through (0. 1.)",
 					"cool" : 1,
 					"id" : "obj-60",
 					"index" : 2,
