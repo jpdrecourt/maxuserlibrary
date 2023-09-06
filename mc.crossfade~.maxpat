@@ -117,7 +117,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 184.0, 179.0, 34.0, 22.0 ],
+					"patching_rect" : [ 184.0, 189.0, 34.0, 22.0 ],
 					"text" : "line~"
 				}
 
@@ -217,7 +217,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Crossfade [-50., 50.] (float)",
+					"comment" : "Crossfade [0., 1.] (float)",
 					"id" : "obj-37",
 					"index" : 3,
 					"maxclass" : "inlet",
