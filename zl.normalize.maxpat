@@ -77,6 +77,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-25",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -93,8 +94,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 313.0, 112.0, 33.0, 22.0 ],
-					"text" : "== 0"
+					"patching_rect" : [ 313.0, 112.0, 36.0, 22.0 ],
+					"text" : "== 0."
 				}
 
 			}

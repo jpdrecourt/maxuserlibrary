@@ -81,8 +81,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 182.0, 131.0, 45.0, 22.0 ],
-					"text" : "/ 1000."
+					"patching_rect" : [ 182.0, 131.0, 52.0, 22.0 ],
+					"text" : "/ 10000."
 				}
 
 			}
@@ -93,8 +93,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 182.0, 97.0, 79.0, 22.0 ],
-					"text" : "random 1000"
+					"patching_rect" : [ 182.0, 97.0, 86.0, 22.0 ],
+					"text" : "random 10001"
 				}
 
 			}
