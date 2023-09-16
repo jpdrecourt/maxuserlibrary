@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -285,7 +285,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 880.846405208110809, 350.405239701271057, 80.0, 93.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.0, 35.666677474975586, 80.0, 77.0 ],
+					"presentation_rect" : [ 84.0, 32.666677474975586, 80.0, 77.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -355,7 +355,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 880.846405208110809, 1022.405239701271057, 80.0, 93.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 351.0, 35.666677474975586, 80.0, 77.0 ],
+					"presentation_rect" : [ 327.0, 32.666677474975586, 80.0, 77.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -425,7 +425,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 880.846405208110809, 118.405239701271057, 80.0, 93.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 35.666677474975586, 80.0, 77.0 ],
+					"presentation_rect" : [ 3.0, 32.666677474975586, 80.0, 77.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -495,7 +495,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 880.846405208110809, 799.405239701271057, 80.0, 93.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 270.0, 35.666677474975586, 80.0, 77.0 ],
+					"presentation_rect" : [ 246.0, 32.666677474975586, 80.0, 77.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -610,7 +610,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 880.846405208110809, 572.405239701271057, 80.0, 93.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.0, 35.666677474975586, 80.0, 77.0 ],
+					"presentation_rect" : [ 165.0, 32.666677474975586, 80.0, 77.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -720,7 +720,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 205.382349967956543, 40.679730117321014, 55.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 220.0, 7.5, 55.0, 20.0 ],
+					"presentation_rect" : [ 196.0, 4.5, 55.0, 20.0 ],
 					"text" : "Interface"
 				}
 
@@ -735,7 +735,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 179.382349967956543, 38.679730117321014, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 194.0, 5.5, 24.0, 24.0 ]
+					"presentation_rect" : [ 170.0, 2.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -825,35 +825,9 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "meter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 251.882349967956543, 319.405239701271057, 12.0, 91.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 434.666662812232971, 35.666677474975586, 12.0, 77.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "meter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 212.418301045894623, 319.405239701271057, 12.0, 91.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.666666567325592, 35.666677474975586, 12.0, 77.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -865,11 +839,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 208.918301045894623, 193.176475048065186, 30.0, 30.0 ]
 				}
 
@@ -878,15 +852,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"order" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -915,15 +880,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"order" : 0,
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"order" : 1,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1271,6 +1227,107 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-10" : [ "toggle[51]", "toggle", 2 ],
+			"obj-12::obj-1" : [ "vst~", "vst~", 0 ],
+			"obj-40::obj-16" : [ "live.dial[12]", "live.dial", 15 ],
+			"obj-40::obj-2" : [ "umenu[7]", "umenu", 10 ],
+			"obj-58::obj-16" : [ "live.dial[1]", "live.dial", 15 ],
+			"obj-58::obj-2" : [ "umenu[1]", "umenu", 10 ],
+			"obj-63::obj-16" : [ "live.dial[2]", "live.dial", 15 ],
+			"obj-63::obj-2" : [ "umenu[2]", "umenu", 10 ],
+			"obj-68::obj-16" : [ "live.dial[3]", "live.dial", 15 ],
+			"obj-68::obj-2" : [ "umenu[3]", "umenu", 10 ],
+			"obj-73::obj-16" : [ "live.dial[4]", "live.dial", 15 ],
+			"obj-73::obj-2" : [ "umenu[4]", "umenu", 10 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-58::obj-16" : 				{
+					"parameter_longname" : "live.dial[1]"
+				}
+,
+				"obj-63::obj-16" : 				{
+					"parameter_longname" : "live.dial[2]"
+				}
+,
+				"obj-68::obj-16" : 				{
+					"parameter_longname" : "live.dial[3]"
+				}
+,
+				"obj-73::obj-16" : 				{
+					"parameter_longname" : "live.dial[4]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "VST-UI.maxsnap",
+				"bootpath" : "D:/JPsDocs/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "VST-dial.maxpat",
+				"bootpath" : "D:/JPsDocs/Documents/Max 8/Library/Noise Wrangler/VST Utils",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "VST-fx.maxpat",
+				"bootpath" : "D:/JPsDocs/Documents/Max 8/Library/Noise Wrangler/VST Utils",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
+		"snapshot" : 		{
+			"filetype" : "C74Snapshot",
+			"version" : 2,
+			"minorversion" : 0,
+			"name" : "snapshotlist",
+			"origin" : "jpatcher",
+			"type" : "list",
+			"subtype" : "Undefined",
+			"embed" : 1,
+			"snapshotlist" : 			{
+				"current_snapshot" : -1,
+				"entries" : [ 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "VST-UI",
+						"origin" : "VST-UI",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "VST-UI",
+							"filename" : "VST-UI.maxsnap",
+							"filepath" : "D:/JPsDocs/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "fdfa5844c0baa8bc868fe392da3ee12e"
+						}
+
+					}
+ ]
+			}
+
+		}
+,
 		"boxgroups" : [ 			{
 				"boxes" : [ "obj-49", "obj-51", "obj-40", "obj-53", "obj-44" ]
 			}
