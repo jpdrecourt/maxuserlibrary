@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -86,7 +86,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 83.0, 574.0, 50.0, 22.0 ],
-					"text" : "get -----"
+					"text" : "get 5"
 				}
 
 			}
@@ -135,7 +135,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 146.117650032043457, 426.0, 50.0, 22.0 ],
-					"text" : "-----"
+					"text" : "5"
 				}
 
 			}
@@ -255,7 +255,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.430000007152557 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[12]",
+							"parameter_longname" : "live.dial[82]",
 							"parameter_mmax" : 1.0,
 							"parameter_order" : 15,
 							"parameter_shortname" : "live.dial",
@@ -319,9 +319,9 @@
 					"presentation_rect" : [ -1.0, 0.166677474975586, 81.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "-----", "Bypass", "InputGain", "OutputGain", "Mix", "InOutMode", "Regenerate", "LowCut", "HighCut", "GateDuck", "Direction", "SyncMode", "FBMode", "DuckMode", "Smoothing", "Pitch", "PitchOffset", "SpliceValue", "SpliceOffset", "DelayValue", "DelayOffset", "Threshold", "Attack", "Release", "Tempo" ],
-							"parameter_longname" : "umenu[7]",
-							"parameter_mmax" : 24,
+							"parameter_enum" : [ "-----", "Wet", "Dry", "1: Enabled", "1: Length", "1: Length", "1: Feedback", "1: Lowpass", "1: Hipass", "1: Resolution", "1: Stereo width", "1: Volume", "1: Pan" ],
+							"parameter_longname" : "umenu[36]",
+							"parameter_mmax" : 12,
 							"parameter_order" : 10,
 							"parameter_shortname" : "umenu",
 							"parameter_type" : 2
