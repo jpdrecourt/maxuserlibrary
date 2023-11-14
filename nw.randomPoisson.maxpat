@@ -64,7 +64,8 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Lambda (average number of events per draw) (int)",
+					"cool" : 1,
 					"id" : "obj-1",
 					"index" : 2,
 					"maxclass" : "inlet",
@@ -89,7 +90,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Bang causes output",
 					"id" : "obj-90",
 					"index" : 1,
 					"maxclass" : "inlet",
